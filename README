@@ -1,0 +1,21 @@
+# Python Accessible Studies
+
+This repository contains course materials for the "Python Accessible Studies" mini-course: lessons, exercises, and accessibility guidance so the materials are friendly to screen readers and keyboard-only users.
+
+Contents
+- syllabus.md — course overview and schedule
+- lessons/lesson-01.md — first lesson (accessible text + runnable code)
+- CONTRIBUTING.md — how to contribute and accessibility requirements
+- .gitignore — typical Python ignores
+- LICENSE — MIT license
+
+How to get started locally
+1. Clone the repository:
+   git clone https://github.com/evelynfaix/python-accessible-studies.git
+2. Open the lessons in a plain text editor or in a screen-reader friendly editor.
+3. Run Python examples with:e      
+   python -m venv .venve  
+   .\.venv\Scripts\Activate  # Windows PowerShell
+   pip install -r requirements.txt  # if provided
+
+Please edit these files to add your course content or tell me what to include next.
