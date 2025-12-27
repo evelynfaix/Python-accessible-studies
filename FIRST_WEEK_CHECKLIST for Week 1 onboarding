@@ -1,0 +1,59 @@
+FIRST_WEEK_CHECKLIST.===BEGIN FIRST_WEEK_CHECKLIST=== FIRST WEEK CHECKLIST — Week 1 (5 hours, accessible-first)
+
+Goal: Set up your environment, run first example scripts, and complete 3 small exercises so you can code comfortably with JAWS and VS Code.
+
+      Overview (high level)
+    
+Time: 5 hours this week. Split into 4 sessions (2 x 1.5 hr + 2 x 1 hr) or 5 x 1 hr sessions.
+Main outcomes: Python venv set up, run starter scripts (hello, fizzbuzz, calculator), open study plan and quizzes, and do 3 exercises.
+Day-by-day tasks (suggested) Session 1 (1.5 hrs) — Environment and REPL
+
+Open PowerShell. Command: cd $env:USERPROFILE\Downloads\python-accessible-studies
+Create venv: python -m venv venv
+Activate venv: .\venv\Scripts\Activate
+Verify Python: python --version
+Open VS Code in the project folder: code .
+Open study_plan.txt and README.txt in VS Code and skim with JAWS.
+Session 2 (1.5 hrs) — REPL and hello script
+
+In VS Code integrated terminal, run Python REPL: python
+Try: print('Hello') and quit() to exit REPL.
+Run hello script: python starter_code\hello.py
+Input your name and confirm greeting.
+Exercise 1: Modify hello.py to re-prompt until a non-empty name is entered. Save and run.
+Session 3 (1 hr) — Loops and FizzBuzz
+
+Run fizzbuzz: python starter_code\fizzbuzz.py
+Exercise 2: Change fizzbuzz to print only numbers that are NOT fizz/buzz (i.e., print numbers not divisible by 3 or 5). Save and run.
+Session 4 (1 hr) — Calculator and simple parsing
+
+Run calculator: python starter_code\calculator.py
+Exercise 3: Update calculator to catch non-numeric input and ask again (loop until two valid numbers). Save and run.
+Session 5 (optional 1 hr) — Review & organize
+
+Open quizzes/quiz_milestone1.txt and read the questions aloud with JAWS; try to answer them.
+Mark completion: create a file named WEEK1_COMPLETE.txt containing date and 3-line summary of what you learned.
+Commands and expected outputs (quick list)
+
+python starter_code\hello.py -> prompts for name; prints Hello, <name>!
+python starter_code\fizzbuzz.py -> prints numbers 1..100 with Fizz/Buzz rules
+python starter_code\calculator.py -> prompts for two numbers and prints add/sub/mul/div
+code . -> opens VS Code in project folder
+python -m unittest discover -v -> runs unit tests (optional this week)
+Accessibility tips (JAWS + VS Code)
+
+Use JAWS Forms Mode when typing into the integrated terminal.
+In VS Code, use the command Palette (Ctrl+Shift+P) and type "Toggle Accessibility Mode" if needed; the repo includes .vscode/settings.json with accessibilitySupport set to "on".
+Prefer reading .txt and .csv files (study_plan.txt, quizzes/*.txt) in the editor with JAWS because they are plain text.
+If you get stuck (quick fixes)
+
+If a script says SyntaxError: check indentation and quotes; re-open file in VS Code and JAWS will read the line.
+If a command 'python' is not found: ensure Python is installed and added to PATH; run python --version.
+If venv activation fails: ensure you are in the project folder and run Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass -Force, then try .\venv\Scripts\Activate again.
+How to commit the file on GitHub
+
+Click Add file → Create new file.
+Type filename: FIRST_WEEK_CHECKLIST.txt
+Click inside the big editor area and paste (Ctrl+V) the text you copied.
+Tab down to the commit box and type commit message: Add FIRST_WEEK_CHECKLIST for Week 1 onboarding
+Choose “Commit directly to the main branch” and press the green Commit button.          
