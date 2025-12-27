@@ -1,0 +1,38 @@
+12-Week Study Plan (5 hours/week)
+
+Week 1: Setup and REPL (5 hrs)
+- Install Python 3.11, create venv, open VS Code with accessibility support.
+- Practice REPL: print(), input(), basic expressions.
+
+Week 2: Control flow (5 hrs)
+- Practice if/elif/else, for and while loops. Do FizzBuzz and simple loop tasks.
+
+Week 3: Functions & modules (5 hrs)
+- Write and call functions, use return values, import simple modules.
+
+Week 4: Lists & strings (5 hrs)
+- Work with lists, indexing, slicing, string methods.
+
+Week 5: Dictionaries & tuples (5 hrs)
+- Use dicts for lookups and simple data stores. Build a minimal contact CLI.
+
+Week 6: File I/O & CSV (5 hrs)
+- Read/write text and CSV files; build a CSV summary script.
+
+Week 7: JSON & error handling (5 hrs)
+- Save and load JSON; add try/except handling; build a JSON-based to-do CLI.
+
+Week 8: Virtualenv & pip (5 hrs)
+- Create and activate venv; install requests and beautifulsoup4; scaffold a project.
+
+Week 9: APIs (5 hrs)
+- Use requests to fetch JSON from a public API and print readable summaries.
+
+Week 10: Web scraping (5 hrs)
+- Use requests and BeautifulSoup to parse accessible HTML content and save results.
+
+Week 11: Testing & debugging (5 hrs)
+- Add basic unit tests using unittest or pytest; learn to run and interpret test output.
+
+Week 12: Final project (5 hrs)
+- Build a small CLI or automation script combining the skills you learned. Add README and tests.

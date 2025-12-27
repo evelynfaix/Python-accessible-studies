@@ -1,0 +1,13 @@
+Week,Hours,Topic,Tasks,Resources,Checkpoint
+Week 1,5,Setup & REPL,Install Python and venv; learn REPL; run basic print/input examples,Python for Everybody ch 1-2; VS Code accessibility docs,Python REPL demo and short script
+Week 2,5,Control flow basics,If/else; for and while loops; small loop exercises (FizzBuzz),Exercism exercises; Automate the Boring Stuff,2 small scripts completed
+Week 3,5,Functions & modules,Define functions, parameters, return values; import modules; build simple functions,Python for Everybody ch 3-4,Functions quiz and 2 scripts
+Week 4,5,Lists & strings,Lists, indexing, slicing, string methods; exercises,Automate the Boring Stuff (lists & strings),List & string exercises
+Week 5,5,Dictionaries & tuples,Maps & lookups; simple data storage; contact CLI project,Python docs + Exercism,Contact CLI minimal functionality
+Week 6,5,File I/O & CSV,Read/write text and CSV files; process a CSV file,Automate file chapters; Python csv docs,CSV summary script working
+Week 7,5,JSON & error handling,JSON load/dump; try/except; persistent to-do app,Python for Everybody + Automate,To-do app saves to JSON
+Week 8,5,Virtual env & pip + packages,Create venv; install requests and bs4; scaffold projects,Real Python + pip docs,Project scaffolded and deps installed
+Week 9,5,APIs & requests,Fetch JSON from a public API and print a summary,Requests docs + Open Notify API,API fetcher working
+Week 10,5,Web scraping & parsing,Use requests + BeautifulSoup to scrape accessible data,Automate web scraping chapter,Scraper script working
+Week 11,5,Testing & debugging,Write basic unittest/pytest tests; run tests; debug scripts,pytest docs + Real Python,Project has at least 2 tests
+Week 12,5,Final project & polish,Finish a final project combining skills; add README and git commits,Automate + Python for Everybody,Final project complete and runnable

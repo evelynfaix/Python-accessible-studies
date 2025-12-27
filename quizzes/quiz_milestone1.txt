@@ -1,0 +1,8 @@
+Milestone 1 Quiz - Basics
+1) How do you print the text Hello in Python?
+2) Write an if statement that checks if variable x is greater than 10.
+3) What does len(some_list) return?
+4) How do you define a function named add that returns x + y?
+5) How do you open a file named data.txt for reading?
+
+Answers available in quizzes/answers/quiz_milestone1_answers.txt

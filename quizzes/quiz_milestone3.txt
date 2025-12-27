@@ -1,0 +1,8 @@
+Milestone 3 Quiz - I/O & Modules
+1) How do you write text 'hello' to a file named out.txt?
+2) How do you load JSON from a string s?
+3) How do you import the requests module?
+4) Write a try/except pattern catching all exceptions and printing an error.
+5) How do you create and activate a venv on Windows (command)?
+
+Answers in quizzes/answers/quiz_milestone3_answers.txt

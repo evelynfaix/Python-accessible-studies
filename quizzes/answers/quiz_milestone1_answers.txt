@@ -1,0 +1,8 @@
+Answers - Milestone 1
+1) print("Hello")
+2) if x > 10:
+       # do something
+3) The number of items in some_list
+4) def add(x, y):
+       return x + y
+5) open("data.txt", "r")

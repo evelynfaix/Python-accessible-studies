@@ -1,0 +1,12 @@
+Accessing the repository from iPhone 15
+
+1) GitHub app
+- Install GitHub from the App Store.
+- Sign in to your account evelynfaix.
+- Open Repositories and select python-accessible-studies.
+- Files are accessible as plain text in the app; open any .txt or .py file and use VoiceOver.
+
+2) Download ZIP
+- On the repo page, tap the Code button and choose Download ZIP to save files locally.
+
+3) Alternative: Use a web-based editor or Git client app that supports VoiceOver.

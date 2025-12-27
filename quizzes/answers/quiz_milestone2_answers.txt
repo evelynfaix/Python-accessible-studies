@@ -1,0 +1,8 @@
+Answers - Milestone 2
+1) ['a', 'b', 'c']
+2) items[0]
+3) {'name': 'Alice'}
+4) A tuple is an immutable ordered collection defined with parentheses, e.g., (1, 2, 3)
+5) freq = {}
+for w in words:
+    freq[w] = freq.get(w, 0) + 1

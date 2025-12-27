@@ -1,0 +1,12 @@
+Answers - Milestone 3
+1) with open('out.txt', 'w') as f:
+       f.write('hello')
+2) import json
+obj = json.loads(s)
+3) import requests
+4) try:
+       # code
+   except Exception as e:
+       print('Error:', e)
+5) python -m venv venv
+Then activate: venv\Scripts\activate

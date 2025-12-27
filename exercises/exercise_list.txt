@@ -1,0 +1,10 @@
+Exercise prompts (short descriptions):
+
+1) Hello & Input: write a script that asks for your name and prints a greeting. Validate non-empty input.
+2) Calculator: ask for two numbers and print sum, difference, product, and quotient (handle division by zero).
+3) FizzBuzz: print numbers 1 to 100 with Fizz/Buzz rules.
+4) Contact CLI: allow adding, listing, and searching contacts (in-memory or saved to file).
+5) To-do CLI: implement add/list/complete/remove with JSON persistence.
+6) CSV Summary: read a CSV and print counts per column or simple aggregation.
+7) API fetcher: fetch JSON from an open API and print a summary.
+8) Scraper: fetch a page and extract title and main headings.

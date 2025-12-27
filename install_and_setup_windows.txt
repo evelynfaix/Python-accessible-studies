@@ -1,0 +1,35 @@
+Windows 11 setup - Python 3.11, VS Code and JAWS (step-by-step)
+
+1) Install Python 3.11
+- Visit https://www.python.org/downloads/windows/ and download the Windows installer for Python 3.11.
+- Run the installer and CHECK "Add Python to PATH" then choose "Install Now".
+
+2) Verify Python and pip
+- Open PowerShell or the VS Code integrated terminal.
+- python --version
+- pip --version
+
+3) Create and activate a virtual environment
+- python -m venv venv
+- .\venv\Scripts\Activate
+- To deactivate later: deactivate
+
+4) Install dependencies
+- pip install -r requirements.txt
+
+5) Open the project in VS Code
+- code .
+- Ensure JAWS is running. VS Code supports JAWS; enable "editor.accessibilitySupport": "on" in .vscode/settings.json (already included).
+- Use the integrated terminal (Terminal menu) to run scripts: python starter_code\hello.py
+
+6) Running scripts
+- In the terminal: python starter_code\todo_cli.py
+- Use simple keyboard navigation: terminal input prompt is where you type.
+
+7) Git and cloning
+- To clone: git clone https://github.com/evelynfaix/Python-accessible-studies.git
+
+Accessibility tips for JAWS and VS Code
+- Use JAWS Forms Mode when typing into the integrated terminal.
+- Configure JAWS verbosity and reading of terminal output as needed.
+- Prefer plain text files and CSV when reading study plan and quizzes.

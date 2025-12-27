@@ -1,0 +1,8 @@
+Milestone 2 Quiz - Data Structures
+1) How do you create a list with items a, b, c?
+2) How do you access the first item of a list named items?
+3) How do you create a dictionary mapping 'name' to 'Alice'?
+4) What is a tuple and how is it defined syntactically?
+5) Give a simple code snippet that counts word frequency in a list of words.
+
+Answers in quizzes/answers/quiz_milestone2_answers.txt
